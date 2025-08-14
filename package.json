@@ -1,0 +1,30 @@
+{
+  "name": "vctimer",
+  "version": "1.0.0",
+  "description": "A shared timer for an ensemble",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celesteh/VCTimer.git"
+  },
+  "keywords": [
+    "Timer"
+  ],
+  "author": "Charles Hutchins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celesteh/VCTimer/issues"
+  },
+  "homepage": "https://github.com/celesteh/VCTimer#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "http": "^0.0.1-security",
+    "node": "^22.18.0",
+    "socket.io": "^4.8.1"
+  }
+}

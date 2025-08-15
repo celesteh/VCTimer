@@ -1,4 +1,4 @@
-const express = require("express");
+/*const express = require("express");
 const { createServer } = require('node:http');
 const { join } = require('node:path');
 
@@ -15,3 +15,11 @@ app.use(express.json());
 const html_path = join(__dirname, "../public_html/");
 
 app.use(express.static(html_path)); // serve all the files
+*/
+
+let http = require('http');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World!');
+}).listen(8080); 
